@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://kit.fontawesome.com/35d86ddc4a.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"/>
+        <link rel="stylesheet" href="./css/reset.css" />
+        <link rel="stylesheet" href="./css/style.css" />
+        <link rel="stylesheet" href="./css/header.css" />
+        <link rel="stylesheet" href="./css/search.css" />
+        <link rel="stylesheet" href="./css/pagination.css" />
+        <link rel="stylesheet" href="./css/galery.css" />
+        <link rel="stylesheet" href="./css/card.css" />
+        <link rel="stylesheet" href="./css/footer.css" />
+        <script src="./pixabay.js" defer></script>
+        <title>API - Pixabay</title>
+    </head>
+    <body>
+        <header>
+            <a href="/">
+            <div class="logo"></div></a>
+            <div class="search-container">
+                <label class="search-icon" for="search-input"></label>
+                <input
+                    type="text"
+                    class="search-input"
+                    id="search-input"
+                    placeholder="Search images,vectors & videos"
+                />
+            </div>
+            <div class="pagination">
+                <input type="text" class="page" id="page" value="1" />
+                <span class="page-total" id="page-total"></span>
+                <div class="page-action" id="page-previous">&#11164;</div>
+                <div class="page-action" id="page-next">&#11166;</div>
+            </div>
+        </header>
+        <main>
+            <section class="container-gallery"></section>
+        </main>
+        <footer>
+            <ul class="social">
+                <li>
+                    <a target="_blanke" href="https://github.com/MrGhostsnow"><i class="fab fa-github"></i></a>
+                </li>
+                <li>
+                    <a target="_blanke" href="https://www.linkedin.com/in/victor-silva-teixeira-b9a4391a3/"><i class="fab fa-linkedin-in"></i></a>
+            </ul>
+            <p id="marca">&copy;Mr.Ghostsnow</p>
+            <div class="text"></div>            
+        </footer>
+    </body>
+</html>
